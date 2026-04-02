@@ -1,8 +1,8 @@
 const sumAll = function(a,b) {
-    let total = 0;
     if(!(a>0 && b>0 && a<b)){
-        alert("Please enter 2 positive integers");
+        return "ERROR";
     }
+    let total = 0;
     for(let i = a; i <= b; i++){
         total += i;
     }
